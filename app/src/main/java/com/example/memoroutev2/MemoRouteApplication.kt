@@ -41,7 +41,7 @@ class JiYiApplication : Application() {
             Log.d(TAG, "开始初始化ArcGIS Runtime...")
             
             // 检查API密钥是否为空
-            val apiKey = "AAPTxy8BH1VEsoebNVZXo8HurFDFqrS0QqC2vkbc8TJ7HeoDf2Zupw9p-ahsPFc12j_4KiaWzgBvXTG6_R67o0Pcdgb0-cizjCAnaul5c9mojI5tNP_y86W5-GNVvQxe_dQOJ93QEhw4ATTcVm9b6MqBrgjuaP6nwEieePaX4zGxRUAp-WAW_j5ip_aHX9nQO_Lsh_-H-1jMrv2oTyTWRukkXt2DN0QRhzy6K4vE_QrtMFU.AT1_kcyZL8RQ"
+            val apiKey = ""
             if (apiKey.isBlank()) {
                 Log.e(TAG, "ArcGIS API密钥为空")
                 Toast.makeText(this, "ArcGIS API密钥为空，地图功能可能无法正常工作", Toast.LENGTH_LONG).show()
