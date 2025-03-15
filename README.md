@@ -11,7 +11,6 @@ MemoRoute是一款专为旅行爱好者设计的Android应用，帮助用户记�
 ### 🏠 精美首页
 - 热门目的地轮播展示
 - 最近旅行记录列表
-- 快速访问常用功能
 
 ### 🗺️ 交互式地图
 - 查看个人足迹和全球热门地点
@@ -73,9 +72,9 @@ git clone https://github.com/yourusername/memoroutev2.git
 2. 使用Android Studio打开项目
 
 3. 配置ArcGIS API密钥
-   - 在`local.properties`文件中添加：
+   - 在`MemoRouteApplication.kt`文件中修改  ：
    ```
-   arcgis.api.key=YOUR_API_KEY
+   val key = YOUR_API_KEY
    ```
 
 4. 构建并运行应用
@@ -109,21 +108,3 @@ app/
 - [ ] 支持更丰富的媒体内容（视频、音频等）
 - [ ] 开发iOS版本
 - [ ] 添加AI推荐功能
-
-## 贡献指南
-
-1. Fork项目
-2. 创建特性分支 (`git checkout -b feature/amazing-feature`)
-3. 提交更改 (`git commit -m 'Add some amazing feature'`)
-4. 推送到分支 (`git push origin feature/amazing-feature`)
-5. 创建Pull Request
-
-## 许可证
-
-本项目采用MIT许可证 - 详情请查看 [LICENSE](LICENSE) 文件
-
-## 联系方式
-
-项目维护者 - [你的名字](mailto:your.email@example.com)
-
-项目链接: [https://github.com/yourusername/memoroutev2](https://github.com/yourusername/memoroutev2) 
