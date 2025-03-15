@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">迹忆</string>
+    
+    <!-- 底部导航 -->
+    <string name="title_home">首页</string>
+    <string name="title_explore">探索</string>
+    <string name="title_trips">行程</string>
+    <string name="title_profile">我的</string>
+    
+    <!-- 首页 -->
+    <string name="search">搜索</string>
+    <string name="search_hint">搜索目的地、行程记录…</string>
+    <string name="popular_destinations">热门目的地</string>
+    <string name="recent_trips">最近行程</string>
+    <string name="view_all">查看全部</string>
+    <string name="sort">排序</string>
+    <string name="add_trip">添加行程</string>
+    <string name="favorite">收藏</string>
+    
+    <!-- 行程详情 -->
+    <string name="trip_details">行程详情</string>
+    <string name="trip_date">%1$s - %2$s</string>
+    <string name="trip_location">%s</string>
+    <string name="trip_points">%d 个地点</string>
+    <string name="trip_paths">%d 条路线</string>
+    
+    <!-- 目的地详情 -->
+    <string name="destination_details">目的地详情</string>
+    <string name="popularity">热度 %d%%</string>
+    
+    <!-- 操作 -->
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="share">分享</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+</resources>

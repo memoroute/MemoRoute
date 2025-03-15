@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 外层圆形背景 -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M54,0C24.18,0 0,24.18 0,54C0,83.82 24.18,108 54,108C83.82,108 108,83.82 108,54C108,24.18 83.82,0 54,0Z" />
+    
+    <!-- 内层圆形 -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M54,12C31.92,12 14,29.92 14,54C14,78.08 31.92,96 54,96C78.08,96 96,78.08 96,54C96,29.92 78.08,12 54,12Z" />
+    
+    <!-- 中心圆形 -->
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M54,24C38.56,24 26,36.56 26,52C26,67.44 38.56,80 54,80C69.44,80 82,67.44 82,52C82,36.56 69.44,24 54,24Z" />
+    
+    <!-- 足迹路径 - 曲线 -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M30,54C34,48 40,44 46,46C52,48 54,56 58,60C62,64 70,64 76,60" />
+    
+    <!-- 足迹点 1 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,54m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    
+    <!-- 足迹点 2 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,46m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    
+    <!-- 足迹点 3 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,60m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    
+    <!-- 足迹点 4 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M76,60m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    
+    <!-- "迹忆" 文字 - 现代简约风格 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,34L48,34L48,38L44,38L44,70L40,70L40,34Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,42L52,42L52,46L44,46L44,42Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,54L50,54L50,58L44,58L44,54Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,66L52,66L52,70L44,70L44,66Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,34L72,34L72,38L60,38L60,34Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,38L68,38L68,70L64,70L64,38Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,54L72,54L72,58L60,58L60,54Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,66L72,66L72,70L60,70L60,66Z" />
+</vector> 

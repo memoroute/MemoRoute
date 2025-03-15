@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 背景圆形 -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M54,18C34.12,18 18,34.12 18,54C18,73.88 34.12,90 54,90C73.88,90 90,73.88 90,54C90,34.12 73.88,18 54,18Z" />
+    
+    <!-- 内部圆环 -->
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M54,26C38.56,26 26,38.56 26,54C26,69.44 38.56,82 54,82C69.44,82 82,69.44 82,54C82,38.56 69.44,26 54,26ZM54,36C44.06,36 36,44.06 36,54C36,63.94 44.06,72 54,72C63.94,72 72,63.94 72,54C72,44.06 63.94,36 54,36Z" />
+    
+    <!-- 足迹图案 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,42C38,42 36,44 36,46C36,48 38,50 40,50C42,50 44,48 44,46C44,44 42,42 40,42Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,50C44,50 42,52 42,54C42,56 44,58 46,58C48,58 50,56 50,54C50,52 48,50 46,50Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,58C50,58 48,60 48,62C48,64 50,66 52,66C54,66 56,64 56,62C56,60 54,58 52,58Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,50C56,50 54,52 54,54C54,56 56,58 58,58C60,58 62,56 62,54C62,52 60,50 58,50Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,42C62,42 60,44 60,46C60,48 62,50 64,50C66,50 68,48 68,46C68,44 66,42 64,42Z" />
+    
+    <!-- "迹" 字 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,38L42,38L42,70L38,70L38,38ZM42,42L50,42L50,46L42,46L42,42ZM42,54L48,54L48,58L42,58L42,54ZM42,66L50,66L50,70L42,70L42,66Z" />
+    
+    <!-- "忆" 字 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,38L70,38L70,42L58,42L58,38ZM62,42L66,42L66,70L62,70L62,42ZM58,54L70,54L70,58L58,58L58,54ZM58,66L70,66L70,70L58,70L58,66Z" />
+</vector> 

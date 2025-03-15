@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.memoroutev2.ui.home.HomeFragment"
+        android:label="首页"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.memoroutev2.ui.map.MapFragment"
+        android:label="地图"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_add"
+        android:name="com.example.memoroutev2.ui.add.AddTripFragment"
+        android:label="添加旅行"
+        tools:layout="@layout/fragment_add_trip" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.memoroutev2.ui.profile.ProfileFragment"
+        android:label="个人资料"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_trip_detail"
+        android:name="com.example.memoroutev2.ui.detail.TripDetailFragment"
+        android:label="旅行详情"
+        tools:layout="@layout/fragment_trip_detail">
+        <argument
+            android:name="tripId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_tripDetailFragment_to_commentsFragment"
+            app:destination="@id/navigation_comments" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_comments"
+        android:name="com.example.memoroutev2.ui.detail.CommentsFragment"
+        android:label="评论"
+        tools:layout="@layout/fragment_comments" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.memoroutev2.ui.search.SearchFragment"
+        android:label="搜索"
+        tools:layout="@layout/fragment_search" />
+
+</navigation> 

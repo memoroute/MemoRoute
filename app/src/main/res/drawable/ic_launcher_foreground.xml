@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 内部圆环 - 浅蓝色 -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M54,24C37.43,24 24,37.43 24,54C24,70.57 37.43,84 54,84C70.57,84 84,70.57 84,54C84,37.43 70.57,24 54,24ZM54,32C66.15,32 76,41.85 76,54C76,66.15 66.15,76 54,76C41.85,76 32,66.15 32,54C32,41.85 41.85,32 54,32Z" />
+    
+    <!-- 中心圆形 - 最浅蓝色 -->
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M54,38C45.16,38 38,45.16 38,54C38,62.84 45.16,70 54,70C62.84,70 70,62.84 70,54C70,45.16 62.84,38 54,38Z" />
+    
+    <!-- 足迹图案 - 白色曲线 -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M38,54C42,48 46,46 50,48C54,50 56,56 58,58C60,60 64,60 68,56" />
+    
+    <!-- 足迹点 - 白色圆点 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,54m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,48m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,58m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,56m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+    
+    <!-- "迹" 字 - 艺术书法风格 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,42C44,42 45,42 46,42C47,42 47,42 47,43C47,44 47,62 47,63C47,64 46,64 45,64C44,64 44,64 44,63C44,62 44,43 44,42ZM47,45C47,45 48,45 49,45C50,45 51,45 51,46C51,47 50,47 49,47C48,47 47,47 47,46C47,45 47,45 47,45ZM47,52C47,52 48,52 49,52C50,52 50,52 50,53C50,54 49,54 48,54C47,54 47,54 47,53C47,52 47,52 47,52ZM47,60C47,60 48,60 49,60C50,60 51,60 51,61C51,62 50,62 49,62C48,62 47,62 47,61C47,60 47,60 47,60Z" />
+    
+    <!-- "忆" 字 - 艺术书法风格 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M57,42C57,42 58,42 59,42C60,42 61,42 61,43C61,44 60,44 59,44C58,44 57,44 57,43C57,42 57,42 57,42ZM58,44C58,44 59,44 59,44C59,44 59,62 59,63C59,64 58,64 58,64C58,64 57,64 57,63C57,62 57,45 57,44C57,43 58,44 58,44ZM57,52C57,52 58,52 59,52C60,52 61,52 61,53C61,54 60,54 59,54C58,54 57,54 57,53C57,52 57,52 57,52ZM57,60C57,60 58,60 59,60C60,60 61,60 61,61C61,62 60,62 59,62C58,62 57,62 57,61C57,60 57,60 57,60Z" />
+</vector>

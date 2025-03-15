@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 其他样式 -->
+
+    <!-- TabLayout指示器样式 -->
+    <style name="TabLayoutIndicator" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabPaddingStart">4dp</item>
+        <item name="tabPaddingEnd">4dp</item>
+        <item name="tabMinWidth">8dp</item>
+        <item name="tabMaxWidth">8dp</item>
+    </style>
+</resources> 

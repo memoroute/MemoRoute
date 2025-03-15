@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 启动画面主题 -->
+    <style name="Theme.Memoroutev2.Splash" parent="Theme.Memoroutev2.NoActionBar.Fullscreen">
+        <!-- 禁用系统启动画面 -->
+        <item name="android:windowSplashScreenBackground">@drawable/splash_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/app_logo</item>
+        <item name="android:windowSplashScreenAnimationDuration">0</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+</resources> 
