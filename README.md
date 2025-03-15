@@ -2,7 +2,9 @@
 
 MemoRoute是一款专为旅行爱好者设计的Android应用，帮助用户记录、分享和探索旅行足迹。通过直观的地图界面和精美的UI设计，用户可以轻松记录旅行路线、查看热门目的地，并与他人分享旅行体验。
 
-<img src="screenshots/home_screen.png" alt="应用主页截图" width="250"/>
+<div align="center">
+  <img src="screenshots/home_screen.png" alt="应用主页截图" width="250"/>
+</div>
 
 ## 功能特点
 
