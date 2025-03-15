@@ -88,17 +88,35 @@ git clone https://github.com/memoroute/memoroutev2.git
 app/
 ├── src/main/
 │   ├── java/com/example/memoroutev2/
-│   │   ├── data/           # 数据源和存储库
-│   │   ├── model/          # 数据模型
-│   │   ├── ui/             # UI组件
-│   │   │   ├── home/       # 首页相关
-│   │   │   ├── map/        # 地图相关
-│   │   │   ├── add/        # 添加旅行
-│   │   │   ├── detail/     # 旅行详情
-│   │   │   └── profile/    # 个人资料
-│   │   └── utils/          # 工具类
-│   └── res/                # 资源文件
-└── build.gradle            # 应用级构建配置
+│   │   ├── data/                # 数据源和存储库
+│   │   │   └── DataSource.kt    # 数据源实现
+│   │   ├── model/               # 数据模型
+│   │   │   ├── Trip.kt          # 旅行模型
+│   │   │   ├── TripLocation.kt  # 旅行地点模型
+│   │   │   ├── Destination.kt   # 目的地模型
+│   │   │   ├── User.kt          # 用户模型
+│   │   │   └── Comment.kt       # 评论模型
+│   │   ├── ui/                  # UI组件
+│   │   │   ├── add/             # 添加旅行
+│   │   │   ├── detail/          # 旅行详情
+│   │   │   ├── home/            # 首页相关
+│   │   │   ├── map/             # 地图相关
+│   │   │   ├── profile/         # 个人资料
+│   │   │   ├── search/          # 搜索功能
+│   │   │   └── theme/           # 应用主题
+│   │   ├── MainActivity.kt      # 主活动
+│   │   ├── SplashActivity.kt    # 启动页活动
+│   │   └── MemoRouteApplication.kt # 应用程序类
+│   ├── res/                     # 资源文件
+│   │   ├── anim/                # 动画资源
+│   │   ├── drawable/            # 图形资源
+│   │   ├── layout/              # 布局文件
+│   │   ├── menu/                # 菜单资源
+│   │   ├── navigation/          # 导航图
+│   │   ├── values/              # 字符串、样式等
+│   │   └── xml/                 # XML配置文件
+│   └── AndroidManifest.xml      # 应用清单
+└── build.gradle.kts             # 应用级构建配置
 ```
 
 ## 未来计划
