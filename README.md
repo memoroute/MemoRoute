@@ -66,7 +66,7 @@
 
 1. 克隆仓库到本地
 ```bash
-git clone https://github.com/memoroute/memoroutev2.git
+git clone https://github.com/memoroute/MemoRoute.git  
 ```
 
 2. 使用Android Studio打开项目
